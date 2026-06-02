@@ -1,41 +1,38 @@
-<<<<<<< HEAD
-# Project 
+# System Diagnostics for LAN
 
-## Setup Instructions
+A robust, lightweight network and system monitoring tool designed to analyze, diagnose, and report the health and performance of machines across a Local Area Network (LAN). This project helps network administrators and developers track system metrics, monitor active hosts, and troubleshoot connectivity bottlenecks seamlessly.
 
-1. **Clone the repository**:
-   ```sh
-   git clone https://github.com/your-repo/project-bolt.git
-   cd project-bolt
-   ```
+---
 
-2. **Run the setup script**:
-   ```sh
-   ./setup.sh
-   ```
+## 🚀 Features
 
-3. **Update the `.env` file**:
-   - Open the `.env` file and update the configuration with your network and SSH credentials.
+*   **Real-Time Node Discovery:** Automatically scans, pings, and identifies active devices and open ports across local network subnets.
+*   **System Metrics Aggregation:** Monitors critical host performance indicators including CPU utilization, memory allocation, and disk usage.
+*   **Network Diagnostic Utilities:** Built-in utilities for latency testing (Ping), path tracing (Traceroute), and network stability checks.
+*   **Lightweight Footprint:** Optimized to run quietly in the background without hogging local network bandwidth or system resources.
+*   **Structured Reporting:** Generates clear console outputs or log summaries detailing the overall status of the LAN ecosystem.
 
-4. **Start the software**:
-   ```sh
-   npm run dev
-   ```
+---
 
-5. **Access the application**:
-   - Open your browser and navigate to `http://localhost:5173`.
+## 🛠️ Tech Stack
 
-## Permissions
+*   **Core Logic:** Python / Node.js (Cross-platform compatibility)
+*   **Networking Protocols:** ICMP (Ping), TCP/UDP scanning, Raw Sockets
+*   **Data Formatting:** JSON / Markdown logs for easy integration
 
-When prompted for permissions, enter:
-```
-network,ssh
-```
+---
 
-This will allow the software to proceed with the network scanning and system information retrieval functionalities.
-````
+## 📋 Prerequisites
 
-These changes should resolve the `ECONNREFUSED` error and ensure that the frontend can connect to the backend server correctly. If you encounter any issues, please let me know.
-=======
-# system-diagonics-for-LAN-js-node-
->>>>>>> 7fe052e88aaf1ff93e9aaa20906e35fc64bc58c4
+Before running this project, ensure you have the following ready:
+*   **Runtime environment:** Python 3.8+ OR Node.js v18+ installed on your machine.
+*   **Privileges:** Administrative/Root privileges are highly recommended. (Certain raw socket operations, like deep ICMP pinging, require elevated permissions on Windows, macOS, and Linux).
+
+---
+
+## 🔧 Installation & Setup
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/harsh20048/System-Diagnostics-for-LAN.git](https://github.com/harsh20048/System-Diagnostics-for-LAN.git)
+cd System-Diagnostics-for-LAN
